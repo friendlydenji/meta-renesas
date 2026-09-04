@@ -1,0 +1,1 @@
+PACKAGECONFIG:remove:class-target = "libmount-mountfd-support chfn-chsh pam"

@@ -1,0 +1,83 @@
+// SPDX-License-Identifier: (GPL-2.0-only OR BSD-2-Clause)
+/*
+ * Device Tree Source for the R-Car V4H White Hawk board
+ * Support Native driver.
+ *
+ * Copyright (C) 2024 Renesas Electronics Corp.
+ */
+
+/dts-v1/;
+#include "white-hawk-native.dtsi"
+#include "r8a779g0.dtsi"
+#include "white-hawk-cpu-common.dtsi"
+#include "white-hawk-common.dtsi"
+#include "white-hawk-native-common.dtsi"
+
+/ {
+	model = "Renesas White Hawk board based on r8a779g0";
+	compatible = "renesas,whitehawk", "renesas,r8a779g0";
+};
+
+&{/soc/video@e6ef0000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef1000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef2000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef3000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef4000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef5000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef6000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef7000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef8000} {
+	status = "okay";
+};
+
+&{/soc/video@e6ef9000} {
+	status = "okay";
+};
+
+&{/soc/video@e6efa000} {
+	status = "okay";
+};
+
+&{/soc/video@e6efb000} {
+	status = "okay";
+};
+
+&{/soc/video@e6efc000} {
+	status = "okay";
+};
+
+&{/soc/video@e6efd000} {
+	status = "okay";
+};
+
+&{/soc/video@e6efe000} {
+	status = "okay";
+};
+
+&{/soc/video@e6eff000} {
+	status = "okay";
+};
